@@ -4,7 +4,7 @@ This is a example project for packaging a python project.
 
 Clone this repository
 ```
-git clone https://github.com/Prcpltwfkwd-TW/example_project.git
+git clone https://github.com/Brownian-Motion-99/example_project.git
 ```
 Create a new virtual environment
 ```
@@ -67,6 +67,7 @@ python3 -m twine upload --repository testpypi dist/*
 
 This implementation is done following the official tutorial, this repository only provides BASIC instruction and doesn't guarantee the practicability. So before starting your own implementation, make sure you have read the official tutorial.
 https://packaging.python.org/en/latest/tutorials/packaging-projects/
+
 
 
 
