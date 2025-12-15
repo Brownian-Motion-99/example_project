@@ -50,6 +50,7 @@ dist
 We use ```twine``` to upload the distribution archives.
 
 Before you upload the files, you have to create an account on TestPyPI, then follow the instruction on TestPyPI to finish necessary configurations.
+
 TestPyPI: https://test.pypi.org/
 
 After the necessary configurations are done, you are ready to upload your first package.
@@ -67,6 +68,7 @@ python3 -m twine upload --repository testpypi dist/*
 
 This implementation is done following the official tutorial, this repository only provides BASIC instruction and doesn't guarantee the practicability. So before starting your own implementation, make sure you have read the official tutorial.
 https://packaging.python.org/en/latest/tutorials/packaging-projects/
+
 
 
 
