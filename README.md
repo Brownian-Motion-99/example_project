@@ -15,7 +15,7 @@ conda create -n example_project_env
 conda activate example_project_env
 ```
 ```
-conda install -c conda-forge python pytest
+conda install -c conda-forge python pytest numpy
 ```
 
 ## Unit testing
@@ -67,6 +67,7 @@ python3 -m twine upload --repository testpypi dist/*
 
 This implementation is done following the official tutorial, this repository only provides BASIC instruction and doesn't guarantee the practicability. So before starting your own implementation, make sure you have read the official tutorial.
 https://packaging.python.org/en/latest/tutorials/packaging-projects/
+
 
 
 
